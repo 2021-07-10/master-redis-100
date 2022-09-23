@@ -3,6 +3,14 @@
 
 * [一站式学习Redis 从入门到高可用分布式实践](./imooc-151)
 
+
+## Ubuntu
+
+```bash
+apt-get install -y redis-server redis-tools
+sudo systemctl stop redis.service
+```
+
 ## Ref
 
 
