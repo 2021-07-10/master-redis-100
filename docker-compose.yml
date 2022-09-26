@@ -1,13 +1,21 @@
 version: '3'
 
 services:
-  redis:
+  m1:
     image: redis:7
     command: 'redis-server /usr/local/etc/redis/redis.conf'
     volumes:
-      - ./conf:/usr/local/etc/redis
-      - ./data:/data
+      - ./conf/m1.conf:/usr/local/etc/redis/redis.conf
 
-# volumes:
-#   redis:
+  s1:
+    image: redis:7
+    command: 'redis-server /usr/local/etc/redis/redis.conf'
+    volumes:
+      - ./conf/s1.conf:/usr/local/etc/redis/redis.conf
+
+      
+
+
+volumes:
+  redis:
   
