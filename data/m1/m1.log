@@ -1,0 +1,146 @@
+1:C 27 Sep 2022 02:45:42.201 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 02:45:42.205 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 02:45:42.209 # Configuration loaded
+1:M 27 Sep 2022 02:45:42.214 * monotonic clock: POSIX clock_gettime
+1:M 27 Sep 2022 02:45:42.218 * Running mode=standalone, port=6379.
+1:M 27 Sep 2022 02:45:42.220 # Server initialized
+1:M 27 Sep 2022 02:45:42.225 * Ready to accept connections
+1:M 27 Sep 2022 02:45:42.249 * Replica 172.18.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 02:45:42.250 * Full resync requested by replica 172.18.0.3:6379
+1:M 27 Sep 2022 02:45:42.251 * Replication backlog created, my new replication IDs are '29317551b4282aaadb7d427d2f33d2244548c23f' and '0000000000000000000000000000000000000000'
+1:M 27 Sep 2022 02:45:42.253 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 02:45:42.254 * Replica 172.18.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 02:45:42.255 * Full resync requested by replica 172.18.0.4:6379
+1:M 27 Sep 2022 02:45:42.256 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 02:45:47.354 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 27 Sep 2022 02:45:47.359 * Background RDB transfer started by pid 20
+20:C 27 Sep 2022 02:45:47.362 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Sep 2022 02:45:47.366 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 27 Sep 2022 02:45:47.391 * Background RDB transfer terminated with success
+1:M 27 Sep 2022 02:45:47.394 * Streamed RDB transfer with replica 172.18.0.3:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 02:45:47.395 * Synchronization with replica 172.18.0.3:6379 succeeded
+1:M 27 Sep 2022 02:45:47.397 * Streamed RDB transfer with replica 172.18.0.4:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 02:45:47.398 * Synchronization with replica 172.18.0.4:6379 succeeded
+1:M 27 Sep 2022 03:22:01.177 # Disconnecting timedout replica (streaming sync): 172.18.0.3:6379
+1:M 27 Sep 2022 03:22:01.183 # Connection with replica 172.18.0.3:6379 lost.
+1:M 27 Sep 2022 03:22:01.242 # Disconnecting timedout replica (streaming sync): 172.18.0.4:6379
+1:M 27 Sep 2022 03:22:01.247 # Connection with replica 172.18.0.4:6379 lost.
+1:M 27 Sep 2022 03:22:01.255 * Replica 172.18.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 03:22:01.256 * Partial resynchronization request from 172.18.0.4:6379 accepted. Sending 0 bytes of backlog starting from offset 2129.
+1:M 27 Sep 2022 03:22:01.260 * Replica 172.18.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 03:22:01.262 * Partial resynchronization request from 172.18.0.3:6379 accepted. Sending 0 bytes of backlog starting from offset 2129.
+1:M 27 Sep 2022 03:25:12.849 # Connection with replica 172.18.0.3:6379 lost.
+1:M 27 Sep 2022 03:25:12.852 # Connection with replica 172.18.0.4:6379 lost.
+1:C 27 Sep 2022 03:25:24.145 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:25:24.149 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:25:24.152 # Configuration loaded
+1:M 27 Sep 2022 03:25:24.154 * monotonic clock: POSIX clock_gettime
+1:M 27 Sep 2022 03:25:24.158 * Running mode=standalone, port=6379.
+1:M 27 Sep 2022 03:25:24.160 # Server initialized
+1:M 27 Sep 2022 03:25:24.166 * Ready to accept connections
+1:M 27 Sep 2022 03:25:24.396 * Replica 172.19.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 03:25:24.397 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '29317551b4282aaadb7d427d2f33d2244548c23f', my replication IDs are 'ec19ed264d474d23d6b802969490b3607fa5c987' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:25:24.399 * Replication backlog created, my new replication IDs are 'b5ae9aa4a61a19138b734c5d8121cc18d90f934d' and '0000000000000000000000000000000000000000'
+1:M 27 Sep 2022 03:25:24.400 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:25:24.973 * Replica 172.19.0.2:6379 asks for synchronization
+1:M 27 Sep 2022 03:25:24.975 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '29317551b4282aaadb7d427d2f33d2244548c23f', my replication IDs are 'b5ae9aa4a61a19138b734c5d8121cc18d90f934d' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:25:24.976 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:25:29.271 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 27 Sep 2022 03:25:29.275 * Background RDB transfer started by pid 21
+21:C 27 Sep 2022 03:25:29.332 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Sep 2022 03:25:29.334 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 27 Sep 2022 03:25:29.368 * Background RDB transfer terminated with success
+1:M 27 Sep 2022 03:25:29.369 * Streamed RDB transfer with replica 172.19.0.3:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:25:29.371 * Synchronization with replica 172.19.0.3:6379 succeeded
+1:M 27 Sep 2022 03:25:29.372 * Streamed RDB transfer with replica 172.19.0.2:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:25:29.374 * Synchronization with replica 172.19.0.2:6379 succeeded
+1:M 27 Sep 2022 03:26:50.732 # Connection with replica 172.19.0.3:6379 lost.
+1:M 27 Sep 2022 03:26:50.735 # Connection with replica 172.19.0.2:6379 lost.
+1:C 27 Sep 2022 03:26:58.179 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:26:58.181 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:26:58.182 # Configuration loaded
+1:M 27 Sep 2022 03:26:58.186 * monotonic clock: POSIX clock_gettime
+1:M 27 Sep 2022 03:26:58.189 * Running mode=standalone, port=6379.
+1:M 27 Sep 2022 03:26:58.195 # Server initialized
+1:M 27 Sep 2022 03:26:58.205 * Ready to accept connections
+1:M 27 Sep 2022 03:26:58.278 * Replica 172.20.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 03:26:58.281 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'b5ae9aa4a61a19138b734c5d8121cc18d90f934d', my replication IDs are '77081259f6383987f0d867465701baa2ad92e0a7' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:26:58.283 * Replication backlog created, my new replication IDs are '630a3254d7ec1f301e98f4d896ccc1c93c1a19d4' and '0000000000000000000000000000000000000000'
+1:M 27 Sep 2022 03:26:58.286 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:26:59.116 * Replica 172.20.0.2:6379 asks for synchronization
+1:M 27 Sep 2022 03:26:59.117 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'b5ae9aa4a61a19138b734c5d8121cc18d90f934d', my replication IDs are '630a3254d7ec1f301e98f4d896ccc1c93c1a19d4' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:26:59.119 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:27:03.317 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 27 Sep 2022 03:27:03.324 * Background RDB transfer started by pid 20
+20:C 27 Sep 2022 03:27:03.378 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Sep 2022 03:27:03.383 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 27 Sep 2022 03:27:03.407 * Background RDB transfer terminated with success
+1:M 27 Sep 2022 03:27:03.408 * Streamed RDB transfer with replica 172.20.0.3:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:27:03.410 * Synchronization with replica 172.20.0.3:6379 succeeded
+1:M 27 Sep 2022 03:27:03.411 * Streamed RDB transfer with replica 172.20.0.2:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:27:03.412 * Synchronization with replica 172.20.0.2:6379 succeeded
+1:M 27 Sep 2022 03:36:31.633 # Connection with replica 172.20.0.3:6379 lost.
+1:C 27 Sep 2022 03:36:48.342 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:36:48.345 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:36:48.349 # Configuration loaded
+1:M 27 Sep 2022 03:36:48.353 * monotonic clock: POSIX clock_gettime
+1:M 27 Sep 2022 03:36:48.357 * Running mode=standalone, port=6379.
+1:M 27 Sep 2022 03:36:48.360 # Server initialized
+1:M 27 Sep 2022 03:36:48.366 * Ready to accept connections
+1:M 27 Sep 2022 03:36:48.630 * Replica 172.21.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 03:36:48.633 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '630a3254d7ec1f301e98f4d896ccc1c93c1a19d4', my replication IDs are 'f005bbb5fe0e3e3cd5450f2b759fcbfd1a211c23' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:36:48.635 * Replication backlog created, my new replication IDs are 'f95faf01ce3debdd30446614d6235c9a25e2863e' and '0000000000000000000000000000000000000000'
+1:M 27 Sep 2022 03:36:48.637 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:36:48.696 * Replica 172.21.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 03:36:48.698 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '630a3254d7ec1f301e98f4d896ccc1c93c1a19d4', my replication IDs are 'f95faf01ce3debdd30446614d6235c9a25e2863e' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:36:48.700 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:36:53.450 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 27 Sep 2022 03:36:53.454 * Background RDB transfer started by pid 20
+20:C 27 Sep 2022 03:36:53.460 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Sep 2022 03:36:53.462 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 27 Sep 2022 03:36:53.490 * Background RDB transfer terminated with success
+1:M 27 Sep 2022 03:36:53.492 * Streamed RDB transfer with replica 172.21.0.4:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:36:53.494 * Synchronization with replica 172.21.0.4:6379 succeeded
+1:M 27 Sep 2022 03:36:53.495 * Streamed RDB transfer with replica 172.21.0.3:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:36:53.496 * Synchronization with replica 172.21.0.3:6379 succeeded
+1:C 27 Sep 2022 03:58:49.038 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:58:49.042 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:58:49.045 # Configuration loaded
+1:M 27 Sep 2022 03:58:49.049 * monotonic clock: POSIX clock_gettime
+1:M 27 Sep 2022 03:58:49.053 * Running mode=standalone, port=6379.
+1:M 27 Sep 2022 03:58:49.055 # Server initialized
+1:M 27 Sep 2022 03:58:49.059 * Ready to accept connections
+1:M 27 Sep 2022 03:58:49.356 * Replica 172.22.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 03:58:49.358 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f95faf01ce3debdd30446614d6235c9a25e2863e', my replication IDs are '87375a4090061217fb67e742090cabe53ace0850' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:58:49.361 * Replication backlog created, my new replication IDs are '5820889e7eb4f78b126391a1d748196f1a494477' and '0000000000000000000000000000000000000000'
+1:M 27 Sep 2022 03:58:49.365 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:58:49.443 * Replica 172.22.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 03:58:49.447 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'f95faf01ce3debdd30446614d6235c9a25e2863e', my replication IDs are '5820889e7eb4f78b126391a1d748196f1a494477' and '0000000000000000000000000000000000000000')
+1:M 27 Sep 2022 03:58:49.450 * Delay next BGSAVE for diskless SYNC
+1:M 27 Sep 2022 03:58:54.128 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 27 Sep 2022 03:58:54.131 * Background RDB transfer started by pid 20
+20:C 27 Sep 2022 03:58:54.188 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 27 Sep 2022 03:58:54.196 # Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 27 Sep 2022 03:58:54.234 * Background RDB transfer terminated with success
+1:M 27 Sep 2022 03:58:54.237 * Streamed RDB transfer with replica 172.22.0.4:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:58:54.239 * Synchronization with replica 172.22.0.4:6379 succeeded
+1:M 27 Sep 2022 03:58:54.241 * Streamed RDB transfer with replica 172.22.0.3:6379 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+1:M 27 Sep 2022 03:58:54.242 * Synchronization with replica 172.22.0.3:6379 succeeded
+1:M 27 Sep 2022 04:58:13.709 # Disconnecting timedout replica (streaming sync): 172.22.0.4:6379
+1:M 27 Sep 2022 04:58:13.711 # Connection with replica 172.22.0.4:6379 lost.
+1:M 27 Sep 2022 04:58:13.770 # Disconnecting timedout replica (streaming sync): 172.22.0.3:6379
+1:M 27 Sep 2022 04:58:13.774 # Connection with replica 172.22.0.3:6379 lost.
+1:M 27 Sep 2022 04:58:13.786 * Replica 172.22.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 04:58:13.789 * Partial resynchronization request from 172.22.0.4:6379 accepted. Sending 0 bytes of backlog starting from offset 369255.
+1:M 27 Sep 2022 04:58:13.794 * Replica 172.22.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 04:58:13.796 * Partial resynchronization request from 172.22.0.3:6379 accepted. Sending 0 bytes of backlog starting from offset 369255.
+1:M 27 Sep 2022 05:15:19.831 # Disconnecting timedout replica (streaming sync): 172.22.0.4:6379
+1:M 27 Sep 2022 05:15:19.833 # Connection with replica 172.22.0.4:6379 lost.
+1:M 27 Sep 2022 05:15:19.836 # Disconnecting timedout replica (streaming sync): 172.22.0.3:6379
+1:M 27 Sep 2022 05:15:19.837 # Connection with replica 172.22.0.3:6379 lost.
+1:M 27 Sep 2022 05:15:19.851 * Replica 172.22.0.4:6379 asks for synchronization
+1:M 27 Sep 2022 05:15:19.853 * Partial resynchronization request from 172.22.0.4:6379 accepted. Sending 0 bytes of backlog starting from offset 375088.
+1:M 27 Sep 2022 05:15:19.857 * Replica 172.22.0.3:6379 asks for synchronization
+1:M 27 Sep 2022 05:15:19.859 * Partial resynchronization request from 172.22.0.3:6379 accepted. Sending 0 bytes of backlog starting from offset 375088.
+1:M 27 Sep 2022 05:57:34.675 # Connection with replica 172.22.0.3:6379 lost.
+1:M 27 Sep 2022 05:57:34.709 # Connection with replica 172.22.0.4:6379 lost.

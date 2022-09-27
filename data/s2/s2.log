@@ -1,0 +1,166 @@
+1:C 27 Sep 2022 02:45:42.199 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 02:45:42.205 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 02:45:42.209 # Configuration loaded
+1:S 27 Sep 2022 02:45:42.212 * monotonic clock: POSIX clock_gettime
+1:S 27 Sep 2022 02:45:42.218 * Running mode=standalone, port=6379.
+1:S 27 Sep 2022 02:45:42.221 # Server initialized
+1:S 27 Sep 2022 02:45:42.226 * Ready to accept connections
+1:S 27 Sep 2022 02:45:42.228 * Connecting to MASTER m1:6379
+1:S 27 Sep 2022 02:45:42.237 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 02:45:42.240 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 02:45:42.244 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 02:45:42.247 * Partial resynchronization not possible (no cached master)
+1:S 27 Sep 2022 02:45:47.357 * Full resync from master: 29317551b4282aaadb7d427d2f33d2244548c23f:0
+1:S 27 Sep 2022 02:45:47.365 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 27 Sep 2022 02:45:47.373 * MASTER <-> REPLICA sync: Flushing old data
+1:S 27 Sep 2022 02:45:47.375 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 27 Sep 2022 02:45:47.382 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 02:45:47.384 * RDB age 0 seconds
+1:S 27 Sep 2022 02:45:47.386 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 02:45:47.388 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 02:45:47.391 * MASTER <-> REPLICA sync: Finished with success
+1:S 27 Sep 2022 03:22:01.176 # MASTER timeout: no data nor PING received...
+1:S 27 Sep 2022 03:22:01.181 # Connection with master lost.
+1:S 27 Sep 2022 03:22:01.238 * Caching the disconnected master state.
+1:S 27 Sep 2022 03:22:01.243 * Reconnecting to MASTER m1:6379
+1:S 27 Sep 2022 03:22:01.247 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:22:01.249 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 03:22:01.251 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 03:22:01.253 * Trying a partial resynchronization (request 29317551b4282aaadb7d427d2f33d2244548c23f:2129).
+1:S 27 Sep 2022 03:22:01.256 * Successful partial resynchronization with master.
+1:S 27 Sep 2022 03:22:01.258 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:C 27 Sep 2022 03:25:24.347 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:25:24.354 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:25:24.356 # Configuration loaded
+1:S 27 Sep 2022 03:25:24.359 * monotonic clock: POSIX clock_gettime
+1:S 27 Sep 2022 03:25:24.363 * Running mode=standalone, port=6379.
+1:S 27 Sep 2022 03:25:24.366 # Server initialized
+1:S 27 Sep 2022 03:25:24.370 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:25:24.372 * RDB age 2377 seconds
+1:S 27 Sep 2022 03:25:24.373 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 03:25:24.375 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:25:24.378 * DB loaded from disk: 0.007 seconds
+1:S 27 Sep 2022 03:25:24.379 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 27 Sep 2022 03:25:24.382 * Ready to accept connections
+1:S 27 Sep 2022 03:25:24.384 * Connecting to MASTER m1:6379
+1:S 27 Sep 2022 03:25:24.387 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:25:24.389 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 03:25:24.391 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 03:25:24.394 * Trying a partial resynchronization (request 29317551b4282aaadb7d427d2f33d2244548c23f:1).
+1:S 27 Sep 2022 03:25:29.276 * Full resync from master: b5ae9aa4a61a19138b734c5d8121cc18d90f934d:0
+1:S 27 Sep 2022 03:25:29.333 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 27 Sep 2022 03:25:29.338 * Discarding previously cached master state.
+1:S 27 Sep 2022 03:25:29.342 * MASTER <-> REPLICA sync: Flushing old data
+1:S 27 Sep 2022 03:25:29.345 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 27 Sep 2022 03:25:29.357 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:25:29.360 * RDB age 0 seconds
+1:S 27 Sep 2022 03:25:29.362 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 03:25:29.363 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:25:29.366 * MASTER <-> REPLICA sync: Finished with success
+1:C 27 Sep 2022 03:26:58.227 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:26:58.230 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:26:58.231 # Configuration loaded
+1:S 27 Sep 2022 03:26:58.235 * monotonic clock: POSIX clock_gettime
+1:S 27 Sep 2022 03:26:58.240 * Running mode=standalone, port=6379.
+1:S 27 Sep 2022 03:26:58.243 # Server initialized
+1:S 27 Sep 2022 03:26:58.248 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:26:58.250 * RDB age 89 seconds
+1:S 27 Sep 2022 03:26:58.253 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 03:26:58.255 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:26:58.261 * DB loaded from disk: 0.014 seconds
+1:S 27 Sep 2022 03:26:58.263 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 27 Sep 2022 03:26:58.266 * Ready to accept connections
+1:S 27 Sep 2022 03:26:58.268 * Connecting to MASTER m1:6379
+1:S 27 Sep 2022 03:26:58.271 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:26:58.272 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 03:26:58.274 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 03:26:58.276 * Trying a partial resynchronization (request b5ae9aa4a61a19138b734c5d8121cc18d90f934d:1).
+1:S 27 Sep 2022 03:27:03.321 * Full resync from master: 630a3254d7ec1f301e98f4d896ccc1c93c1a19d4:0
+1:S 27 Sep 2022 03:27:03.382 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 27 Sep 2022 03:27:03.387 * Discarding previously cached master state.
+1:S 27 Sep 2022 03:27:03.390 * MASTER <-> REPLICA sync: Flushing old data
+1:S 27 Sep 2022 03:27:03.391 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 27 Sep 2022 03:27:03.399 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:27:03.400 * RDB age 0 seconds
+1:S 27 Sep 2022 03:27:03.402 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 03:27:03.403 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:27:03.405 * MASTER <-> REPLICA sync: Finished with success
+1:C 27 Sep 2022 03:36:48.552 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:36:48.554 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:36:48.555 # Configuration loaded
+1:S 27 Sep 2022 03:36:48.557 * monotonic clock: POSIX clock_gettime
+1:S 27 Sep 2022 03:36:48.559 * Running mode=standalone, port=6379.
+1:S 27 Sep 2022 03:36:48.566 # Server initialized
+1:S 27 Sep 2022 03:36:48.579 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:36:48.584 * RDB age 585 seconds
+1:S 27 Sep 2022 03:36:48.590 * RDB memory usage when created 0.90 Mb
+1:S 27 Sep 2022 03:36:48.593 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:36:48.601 * DB loaded from disk: 0.027 seconds
+1:S 27 Sep 2022 03:36:48.605 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 27 Sep 2022 03:36:48.609 * Ready to accept connections
+1:S 27 Sep 2022 03:36:48.612 * Connecting to MASTER m1:6379
+1:S 27 Sep 2022 03:36:48.620 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:36:48.622 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 03:36:48.625 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 03:36:48.627 * Trying a partial resynchronization (request 630a3254d7ec1f301e98f4d896ccc1c93c1a19d4:1).
+1:S 27 Sep 2022 03:36:53.452 * Full resync from master: f95faf01ce3debdd30446614d6235c9a25e2863e:293
+1:S 27 Sep 2022 03:36:53.462 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 27 Sep 2022 03:36:53.467 * Discarding previously cached master state.
+1:S 27 Sep 2022 03:36:53.469 * MASTER <-> REPLICA sync: Flushing old data
+1:S 27 Sep 2022 03:36:53.470 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 27 Sep 2022 03:36:53.476 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:36:53.478 * RDB age 0 seconds
+1:S 27 Sep 2022 03:36:53.481 * RDB memory usage when created 1.06 Mb
+1:S 27 Sep 2022 03:36:53.483 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:36:53.485 * MASTER <-> REPLICA sync: Finished with success
+1:S 27 Sep 2022 03:58:28.354 # Connection with master lost.
+1:S 27 Sep 2022 03:58:28.360 * Caching the disconnected master state.
+1:S 27 Sep 2022 03:58:28.364 * Reconnecting to MASTER m1:6379
+1:S 27 Sep 2022 03:58:28.367 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:58:28.373 # Error condition on socket for SYNC: Connection refused
+1:C 27 Sep 2022 03:58:49.261 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 27 Sep 2022 03:58:49.264 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 27 Sep 2022 03:58:49.265 # Configuration loaded
+1:S 27 Sep 2022 03:58:49.268 * monotonic clock: POSIX clock_gettime
+1:S 27 Sep 2022 03:58:49.276 * Running mode=standalone, port=6379.
+1:S 27 Sep 2022 03:58:49.279 # Server initialized
+1:S 27 Sep 2022 03:58:49.286 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:58:49.291 * RDB age 1316 seconds
+1:S 27 Sep 2022 03:58:49.295 * RDB memory usage when created 1.06 Mb
+1:S 27 Sep 2022 03:58:49.302 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:58:49.311 * DB loaded from disk: 0.022 seconds
+1:S 27 Sep 2022 03:58:49.322 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 27 Sep 2022 03:58:49.326 * Ready to accept connections
+1:S 27 Sep 2022 03:58:49.336 * Connecting to MASTER m1:6379
+1:S 27 Sep 2022 03:58:49.340 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 03:58:49.345 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 03:58:49.348 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 03:58:49.352 * Trying a partial resynchronization (request f95faf01ce3debdd30446614d6235c9a25e2863e:294).
+1:S 27 Sep 2022 03:58:54.131 * Full resync from master: 5820889e7eb4f78b126391a1d748196f1a494477:428
+1:S 27 Sep 2022 03:58:54.190 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 27 Sep 2022 03:58:54.202 * Discarding previously cached master state.
+1:S 27 Sep 2022 03:58:54.207 * MASTER <-> REPLICA sync: Flushing old data
+1:S 27 Sep 2022 03:58:54.209 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 27 Sep 2022 03:58:54.219 * Loading RDB produced by version 7.0.4
+1:S 27 Sep 2022 03:58:54.222 * RDB age 0 seconds
+1:S 27 Sep 2022 03:58:54.224 * RDB memory usage when created 1.14 Mb
+1:S 27 Sep 2022 03:58:54.226 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 27 Sep 2022 03:58:54.231 * MASTER <-> REPLICA sync: Finished with success
+1:S 27 Sep 2022 04:58:13.769 # Connection with master lost.
+1:S 27 Sep 2022 04:58:13.772 * Caching the disconnected master state.
+1:S 27 Sep 2022 04:58:13.775 * Reconnecting to MASTER m1:6379
+1:S 27 Sep 2022 04:58:13.779 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 04:58:13.780 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 04:58:13.783 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 04:58:13.785 * Trying a partial resynchronization (request 5820889e7eb4f78b126391a1d748196f1a494477:369255).
+1:S 27 Sep 2022 04:58:13.788 * Successful partial resynchronization with master.
+1:S 27 Sep 2022 04:58:13.790 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 27 Sep 2022 05:15:19.836 # Connection with master lost.
+1:S 27 Sep 2022 05:15:19.838 * Caching the disconnected master state.
+1:S 27 Sep 2022 05:15:19.840 * Reconnecting to MASTER m1:6379
+1:S 27 Sep 2022 05:15:19.843 * MASTER <-> REPLICA sync started
+1:S 27 Sep 2022 05:15:19.845 * Non blocking connect for SYNC fired the event.
+1:S 27 Sep 2022 05:15:19.847 * Master replied to PING, replication can continue...
+1:S 27 Sep 2022 05:15:19.849 * Trying a partial resynchronization (request 5820889e7eb4f78b126391a1d748196f1a494477:375088).
+1:S 27 Sep 2022 05:15:19.854 * Successful partial resynchronization with master.
+1:S 27 Sep 2022 05:15:19.856 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
