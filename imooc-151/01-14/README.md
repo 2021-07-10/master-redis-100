@@ -2,7 +2,11 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Fri Sep 23 11:55:16 CST 2022` | -
+`Wed Sep 28 23:54:38 CST 2022` | -
+
+<img src="./01.png" />
+
+<img src="./02.png" />
 
 **三种启动方式**
 
@@ -15,6 +19,11 @@
 
 **验证**
 
-* `ps -ef | grep redis`
-* `sudo netstat -antpl | grep redis`
-* `redis-cli -h ip -p port ping`
+* 进程: `ps -ef | grep redis`
+* 端口: `sudo netstat -antpl | grep redis`
+* 功能: `redis-cli -h ip -p port ping`
+
+
+<img src="./03.png" />
+
+<img src="./04.png" />

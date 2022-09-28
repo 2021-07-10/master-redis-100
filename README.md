@@ -11,6 +11,15 @@ apt-get install -y redis-server redis-tools
 sudo systemctl stop redis.service
 ```
 
+## macOS
+
+
+```bash
+brew reinstall redis
+brew services restart redis
+/usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf
+```
+
 ## Ref
 
 

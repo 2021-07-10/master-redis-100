@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Fri Sep 23 14:19:15 CST 2022` |
+`Thu Sep 29 00:04:38 CST 2022` |
 
 ```
 apt-get install -y build-essential pkg-config net-tools
