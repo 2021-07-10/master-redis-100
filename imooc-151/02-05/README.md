@@ -2,9 +2,9 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Fri Sep 23 15:49:02 CST 2022` | -
+`Thu Sep 29 11:17:39 CST 2022` | -
 
-**string**
+**get、set、del**
 
 * `set`: 设置key-value
 * `get key` : 获取key对应的value
@@ -42,4 +42,4 @@
 
 * `incrbyfloat key` 增加浮点数
 * `getrange key start end`获取字符串指定下标所有的值
-* `setrange key index value`设置指定下标多有对应的值
+* `setrange key index value`设置指定下标所对应的值
