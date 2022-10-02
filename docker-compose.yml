@@ -1,6 +1,10 @@
 version: '3'
 
 services:
+  app:
+    image: ruby:3.1
+    volumes:
+      - .:/usr/src/app
   m1:
     image: redis:7
     command: 'redis-server /usr/local/etc/redis/redis.conf'

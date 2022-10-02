@@ -2,6 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Sun Sep 25 11:34:32 CST 2022` | -
+`Sun Oct  2 10:43:42 CST 2022` | -
 
 * `redis-cli -h s1 info server|grep run`
+* `redis-cli -h s1 info replication|grep offset`

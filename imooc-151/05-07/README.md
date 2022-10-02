@@ -18,4 +18,9 @@
 <img src="./07.png" />
 <img src="./08.png" />
 
-
+配置|说明
+---|---
+auto-aof-rewrite-percentage 100 | AOF 文件增长率
+auto-aof-rewrite-min-size 64mb | AOF 文件重写需要的尺寸
+aof_current_size | 当前尺寸
+aof_base_size | 上次启动和重写的尺寸
